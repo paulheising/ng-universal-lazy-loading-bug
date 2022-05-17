@@ -56,6 +56,7 @@ export function app(): express.Express {
           'res.render callback - response will be sent to client now!',
         );
         // console.log(html);
+        res.send(html);
       },
     );
   });
