@@ -1,3 +1,14 @@
-<div><a [routerLink]="['/foo']">Go to foo</a></div>
-<div><a [routerLink]="['/bar']">Go to bar</a></div>
+<div>
+  <a [routerLink]="['/foo']"
+    >Go to foo - just a dummy - not even necessary for this example 😉</a
+  >
+</div>
+<div>
+  <a [routerLink]="['/bar']"
+    >Go to bar - the module which loads some http data</a
+  >
+</div>
 <div><router-outlet></router-outlet></div>
+<div>
+  <pre>Some more data (from AppComponent): {{ someData | json }}</pre>
+</div>
